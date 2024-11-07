@@ -29,6 +29,17 @@ multi_task_transformer/
 ##2 Run the Training Script.
 - python src/train.py
 
+## Running the Project with Docker
+
+To build and run this project in a Docker container:
+
+1. **Build the Docker image**:
+   ```bash
+   docker build -t multi_task_transformer .
+
+2. ** Run the Docker Container**:
+     docker run -it multi_task_transformer
+
 This script will:
 
 Initialize the model.
